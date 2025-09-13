@@ -509,9 +509,8 @@ checksum = "2532096657941c2fea9c289d370a250971c689d4f143798ff67113ec042024a5"
 
 [[package]]
 name = "memchr"
-version = "2.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d"
+version = "2.7.5"
+source = "git+https://github.com/neuschaefer/rust-memchr?branch=a64be#717f8494f4d7045680376507e2e36e4ce4aa1d97"
 
 [[package]]
 name = "memoffset"

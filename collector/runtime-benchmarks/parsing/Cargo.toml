@@ -10,3 +10,6 @@ benchlib = { path = "../../benchlib" }
 nom = "7.1.3"
 
 [workspace]
+
+[patch.crates-io]
+memchr = { version = "2.7.5", git = "https://github.com/neuschaefer/rust-memchr", branch = "a64be" }

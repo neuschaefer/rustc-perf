@@ -9,3 +9,6 @@ lodepng = "0.10"
 benchlib = { path = "../../benchlib" }
 
 [workspace]
+
+[patch.crates-io]
+memchr = { version = "2.7.5", git = "https://github.com/neuschaefer/rust-memchr", branch = "a64be" }

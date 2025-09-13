@@ -10,3 +10,6 @@ benchlib = { path = "../../benchlib" }
 nes = { git = "https://github.com/koute/pinky.git", rev = "af8ce410886dc44d7ce18ee1e5983d5c696698fe" }
 
 [workspace]
+
+[patch.crates-io]
+memchr = { version = "2.7.5", git = "https://github.com/neuschaefer/rust-memchr", branch = "a64be" }

@@ -191,9 +191,8 @@ checksum = "b5e6163cb8c49088c2c36f57875e58ccd8c87c7427f7fbd50ea6710b2f3f2e8f"
 
 [[package]]
 name = "memchr"
-version = "2.6.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8f232d6ef707e1956a43342693d2a31e72989554d58299d7a88738cc95b0d35c"
+version = "2.7.5"
+source = "git+https://github.com/neuschaefer/rust-memchr?branch=a64be#717f8494f4d7045680376507e2e36e4ce4aa1d97"
 
 [[package]]
 name = "mos6502"

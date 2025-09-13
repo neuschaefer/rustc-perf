@@ -9,3 +9,6 @@ edition = "2018"
 futures = "0.3"
 
 [workspace]
+
+[patch.crates-io]
+memchr = { version = "2.7.5", git = "https://github.com/neuschaefer/rust-memchr", branch = "a64be" }

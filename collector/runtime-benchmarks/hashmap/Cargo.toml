@@ -11,3 +11,6 @@ hashbrown = { version = "0.13.2" }
 fxhash = "0.2.1"
 
 [workspace]
+
+[patch.crates-io]
+memchr = { version = "2.7.5", git = "https://github.com/neuschaefer/rust-memchr", branch = "a64be" }
